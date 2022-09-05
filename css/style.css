@@ -141,7 +141,6 @@ footer { background: var(--boz) }
     background: #2c2c2c;
     transform: translate(0, -50%);
     margin-bottom: 15px;
-   
 }
 #icon2 a i { font-size: 4em; color: #7c7c7c; }
 
@@ -233,7 +232,6 @@ input {
     border: none;
     color: #fff;
     text-transform: uppercase;
-    
 }
 
 /* stylization blue-line-end - FOOTER */
@@ -273,14 +271,12 @@ input {
     /* styling main elements  MAiN*/
     .grid-container {
         display: grid;
-        
         grid-template-areas: 'item1 item2 item3 item4'
                              'item5 item6 item3 item7'
                              'item8 item9 item10 item10'
                              'item11 item12 item13 item14'
                              'item11 item15 item16 item16';
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        
     }
     .item1, .item2, .item4, .item5, .item6, .item7, .item8, 
     .item9, .item10, .item12, .item13, .item14, .item15, .item16{ height: 215px }
