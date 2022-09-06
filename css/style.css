@@ -130,7 +130,7 @@ main { background: url('../img/back.png'); padding: 45px 0 120px 0; }
 /* stylization footer and of footer elements - FOOTER */
 footer { background: var(--boz) }
 
-#icon2 { text-align: center }
+#icon2 { display: flex; justify-content: space-between; }
 #icon2 a {
     display: inline-grid;
     justify-content: center;
@@ -291,5 +291,4 @@ input {
         justify-content: space-between; 
         flex-direction: inherit;
     }
-    
 }
