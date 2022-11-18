@@ -43,6 +43,11 @@ nav { display: grid; text-align: center; }
     font: .8em 'MuseoModerno', cursive;
     color: #7c7c7c;
 }
+#icon2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 #icon1 a {
     display: inline-grid;
     justify-content: center;
